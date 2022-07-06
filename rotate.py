@@ -1,7 +1,7 @@
 import time, rotatescreen as rs
-
+#primary display or original angle of the display
 pd = rs.get_primary_display()
-
+#roatating and angles
 angel_list = [90,180,270,0]
 
 for i in range(20):
